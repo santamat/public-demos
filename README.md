@@ -1,6 +1,7 @@
 # Some demo projects and code snippets.
 
-dmpg.c --> Estratto di un complex driver per famiglia uC MPC5XXX .
+## dmpg.c (Linguaggio C)
+Estratto di un complex driver di controllo motore a combustione implementato su famiglia uC Freescale MPC5XXX .
 
 Nel 2008 sono stato incaricato di sviluppare il driver di controllo iniettori multijet per la GEN8 delle ECU controllo motore Magneti Marelli. Le ECU GEN8 montavano come micro principale un Freescale MPC5XXX, architettura 32-bit PowerPC .
 I motori multijet prevedono la possibilità di fare iniettate multiple e venni quindi incaricato di specificare ed implementare il driver per la generazione di N comandi logici indipendenti su N pin uC che erano collegati ad altrettanti ingressi di un ASIC che si occupava della generazione del profilo di corrente necessario per comandare l'apertura e la chiusura degli iniettori . Il requisito era che i comandi logici fosser programmabili via SW per generare N treni di M impulsi di durata variabile. 
@@ -27,7 +28,12 @@ BlockChain.zip --> Soft-Simulation del funzionamento di una blockchain (generazi
 
 Ho allegato alcuni progetti (non tutti) che ho sviluppato durante il corso online di 9 mesi con cui ho ottenuto la certificazione di Self-Driving Car Engineer. Sul mio profilo Linkedin trovate l'attestato . I progetti sono sviluppati in Python o C++ ed erano tutti soggetti a review da parte degli istruttori per poter proseguire verso la certificazione. I progetti in Python sono stati creati usando lo Jupyter Notebook, con cui potete aprire i file .ipynb per vedere il sorgente . In più, ogni progetto richiedeva la stesura di un Writeup (PDF) , che potete leggere, dove viene spiegato cosa è stato fatto ed il processo decisionale e di design su cui si basa l'implementazione del progetto.
 
-Advanced Lane Finding --> Progetto di computer vision, viene richiesto di implementare in Python un algoritmo di Lane Detection.
-Model Predictive Control --> Controllo automatico della vettura su pista sotto determinati vincoli . Disponibile in uno zip a parte il video che mostra in pratica la soluzione implementata.
-
+## Advanced Lane Finding (Python)
+Progetto di computer vision, viene richiesto di implementare in Python un algoritmo di Lane Detection.
+## Model Predictive Control (Python)
+Controllo automatico della vettura su pista sotto determinati vincoli . Disponibile in uno zip a parte il video che mostra in pratica la soluzione implementata.
+## Path Planner (Python)
+Controllo automatico della vettura che deve essere in grado di guidare su una autostrada a 3 corsie, gestendo i sorpassi, rispettando i limiti di velocità ed evitando collisioni con vetture più lente.
+## Unscented Kalman Filter (C++)
+Implementazione in C++ di un filtro di Kalman per predire lo stato di un oggetto in movimento (per esempio un robot) in un ambiente circoscritto, sulla base di misure provenienti da sensori tipo lidar/radar (intrinsecamente rumorosi) .
 
