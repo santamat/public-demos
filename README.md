@@ -18,22 +18,23 @@ Su altre architetture micro ho lavorato  molto di meno come developer e maggiorm
 
 Per poter fornire alcuni progetti completi, ho allegato alcune simulazioni che ho sviluppato con l'engine Unity 2018. La versione base si può scaricare online ed i progetti allegati si possono caricare, eseguire nell'engine nonchè generare l'eseguibile Win32/Win64.
 
-Amazons.zip --> La variante (un po' semplificata) degli scacchi Amazons, le regole si trovano a questo link : https://en.wikipedia.org/wiki/Game_of_the_Amazons . Ho fatto questo progetto per esplorare gli algoritmi di AI, sia rule-based (agente mini-max) sia data-driven (machine learning/reinforcement learning). La versione attuale supporta l'agente mini-max, nella prossima versione aggiungerò un agente basato su supervised learning per poi passare al deep reinforncement learning.
-
-SniperBot.zip --> Simulazione AI di reinforcement learning. L'agente (il cecchino al centro del campo) con il passare del tempo impara ad uccidere tutti i nemici prima che lo raggiungano. Al momento l'algoritmo impiega 15 min circa per ottenere una performance decente. L'algoritmo è basato su Q-Learning e non fa uso di reti neurali .
-
-BlockChain.zip --> Soft-Simulation del funzionamento di una blockchain (generazione transizioni , mining, wallet elettronico) . Ho utilizzato le librerie RSA di Microsoft .NET per implementare gli algoritmi di crittografia a chiave asimmetrica.
+### Amazons.zip
+La variante (un po' semplificata) degli scacchi Amazons, le regole si trovano a questo link : https://en.wikipedia.org/wiki/Game_of_the_Amazons . Ho fatto questo progetto per esplorare gli algoritmi di AI, sia rule-based (agente mini-max) sia data-driven (machine learning/reinforcement learning). La versione attuale supporta l'agente mini-max, nella prossima versione aggiungerò un agente basato su supervised learning per poi passare al deep reinforncement learning.
+### SniperBot.zip
+Simulazione AI di reinforcement learning. L'agente (il cecchino al centro del campo) con il passare del tempo impara ad uccidere tutti i nemici prima che lo raggiungano. Al momento l'algoritmo impiega 15 min circa per ottenere una performance decente. L'algoritmo è basato su Q-Learning e non fa uso di reti neurali .
+### BlockChain.zip 
+Soft-Simulation del funzionamento di una blockchain (generazione transizioni , mining, wallet elettronico) . Ho utilizzato le librerie RSA di Microsoft .NET per implementare gli algoritmi di crittografia a chiave asimmetrica.
 
 # Self-Driving Car Engineer Nanodegree Projects (Python / C++)
 
 Ho allegato alcuni progetti (non tutti) che ho sviluppato durante il corso online di 9 mesi con cui ho ottenuto la certificazione di Self-Driving Car Engineer. Sul mio profilo Linkedin trovate l'attestato . I progetti sono sviluppati in Python o C++ ed erano tutti soggetti a review da parte degli istruttori per poter proseguire verso la certificazione. I progetti in Python sono stati creati usando lo Jupyter Notebook, con cui potete aprire i file .ipynb per vedere il sorgente . In più, ogni progetto richiedeva la stesura di un Writeup (PDF) , che potete leggere, dove viene spiegato cosa è stato fatto ed il processo decisionale e di design su cui si basa l'implementazione del progetto.
 
-## Advanced Lane Finding (Python)
+### Advanced Lane Finding (Python)
 Progetto di computer vision, viene richiesto di implementare in Python un algoritmo di Lane Detection.
-## Model Predictive Control (Python)
+### Model Predictive Control (Python)
 Controllo automatico della vettura su pista sotto determinati vincoli . Disponibile in uno zip a parte il video che mostra in pratica la soluzione implementata.
-## Path Planner (Python)
+### Path Planner (Python)
 Controllo automatico della vettura che deve essere in grado di guidare su una autostrada a 3 corsie, gestendo i sorpassi, rispettando i limiti di velocità ed evitando collisioni con vetture più lente.
-## Unscented Kalman Filter (C++)
+### Unscented Kalman Filter (C++)
 Implementazione in C++ di un filtro di Kalman per predire lo stato di un oggetto in movimento (per esempio un robot) in un ambiente circoscritto, sulla base di misure provenienti da sensori tipo lidar/radar (intrinsecamente rumorosi) .
 
