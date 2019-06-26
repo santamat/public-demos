@@ -1,3 +1,16 @@
 # Some demo projects and code snippets.
 
 dmpg.c --> Estratto di un complex driver per famiglia uC MPC5XXX .
+
+Nel 2008 sono stato incaricato di sviluppare il driver di controllo iniettori multijet per la GEN8 delle ECU controllo motore Magneti Marelli. Le ECU GEN8 montavano come micro principale un Freescale MPC5XXX, architettura 32-bit PowerPC .
+I motori multijet prevedono la possibilità di fare iniettate multiple e venni quindi incaricato di specificare ed implementare il driver per la generazione di N comandi logici indipendenti su N pin uC che erano collegati ad altrettanti ingressi di un ASIC che si occupava della generazione del profilo di corrente necessario per comandare l'apertura e la chiusura degli iniettori . Il requisito era che i comandi logici fosser programmabili via SW per generare N treni di M impulsi di durata variabile. 
+
+L'estratto che ho riportato è la parte del driver (MPG sta per multiple pulse generator) di interfacciamento fra il SW applicativo e le periferiche micro che gestiscono la generazione dei comandi di iniezione . Il timer utilizzato è la eTPU, un timer programmabile comandato da una MCU indipendente con un proprio instruction set. Io ho sviluppato anche il micro-codice della eTPU per la programmazione dei compare-match per la generazione dei comandi di iniezione. Per motivi di policy aziendale, non posso pubblicare il microcodice ma sono disponibile per approfondire l'argomento .
+
+Ho condiviso questo estratto perchè l'esperienza è stata davvero istruttiva, ho ancora un po' di incubi quando penso alle sessioni di prove sui rulli o su strada per catturare sporadiche perdite di iniettate e capirne poi il motivo scatenante...awesome! 
+
+In quel periodo e nell'anno successivo ho poi sviluppato e validato altri driver : comunicazioni (SPI / CAN / MSC) , ADC, VRS,... Ho avuto la fortuna di poter lavorare in prima persona con un mio collega sul 90% dei driver GEN8/9 . Poi sono passato ad essere responsabile dell'integrazione , integration testing e rilascio del pacchetto FW verso l'applicativo, staccandomi dallo sviluppo dei componenti. 
+
+Su altre architetture micro ho lavorato  molto di meno come developer e maggiormente come team leader. Ho eseguito il porting del RTOS ERTK, sviluppato dal CRF su architettura PowerPc , verso l'architettura Renesas RH850. Si tratta di un RTOS basato su un semplice scheduler mono-core full-preemptive, con architettura mono-stack ed interfaccia OSEK-compliant . Sempre su RH850 ho sviluppato un driver per il controllo di uno stepper-motor.
+
+
