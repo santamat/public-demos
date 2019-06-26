@@ -19,7 +19,8 @@ Su altre architetture micro ho lavorato  molto di meno come developer e maggiorm
 Per poter fornire alcuni progetti completi, ho allegato alcune simulazioni che ho sviluppato con l'engine Unity 2018. La versione base si può scaricare online ed i progetti allegati si possono caricare, eseguire nell'engine nonchè generare l'eseguibile Win32/Win64.
 
 ### Amazons.zip
-La variante (un po' semplificata) degli scacchi Amazons, le regole si trovano a questo link : https://en.wikipedia.org/wiki/Game_of_the_Amazons . Ho fatto questo progetto per esplorare gli algoritmi di AI, sia rule-based (agente mini-max) sia data-driven (machine learning/reinforcement learning). La versione attuale supporta l'agente mini-max, nella prossima versione aggiungerò un agente basato su supervised learning per poi passare al deep reinforncement learning.
+La variante (un po' semplificata) degli scacchi chiamata Amazons, le cui regole si trovano a questo link : https://en.wikipedia.org/wiki/Game_of_the_Amazons . 
+Ho fatto questo progetto per esplorare gli algoritmi di AI, sia rule-based (agente mini-max) sia data-driven (machine learning/reinforcement learning). La versione attuale supporta l'agente mini-max, nella prossima versione aggiungerò un agente basato su supervised learning per poi passare al deep reinforncement learning.
 ### SniperBot.zip
 Simulazione AI di reinforcement learning. L'agente (il cecchino al centro del campo) con il passare del tempo impara ad uccidere tutti i nemici prima che lo raggiungano. Al momento l'algoritmo impiega 15 min circa per ottenere una performance decente. L'algoritmo è basato su Q-Learning e non fa uso di reti neurali .
 ### BlockChain.zip 
@@ -37,4 +38,8 @@ Controllo automatico della vettura su pista sotto determinati vincoli . Disponib
 Controllo automatico della vettura che deve essere in grado di guidare su una autostrada a 3 corsie, gestendo i sorpassi, rispettando i limiti di velocità ed evitando collisioni con vetture più lente.
 ### Unscented Kalman Filter (C++)
 Implementazione in C++ di un filtro di Kalman per predire lo stato di un oggetto in movimento (per esempio un robot) in un ambiente circoscritto, sulla base di misure provenienti da sensori tipo lidar/radar (intrinsecamente rumorosi) .
+
+# Altri corsi / progetti in progress
+
+Entro i prossimi 2-3 mesi conto di terminare due corsi online (sempre di carattere teorico+pratico) che sto seguendo nel mio spare time : Full Stack Web Developer (tecnologie sviluppo web Frontend e Backend) e Hadoop Ecosystem (Big Data Management). Entrambi credo siano importanti per chiudere il loop con l'esplorazione del machine learning che sto portando avanti dall'anno scorso .
 
