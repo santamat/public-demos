@@ -13,4 +13,15 @@ In quel periodo e nell'anno successivo ho poi sviluppato e validato altri driver
 
 Su altre architetture micro ho lavorato  molto di meno come developer e maggiormente come team leader. Ho eseguito il porting del RTOS ERTK, sviluppato dal CRF su architettura PowerPc , verso l'architettura Renesas RH850. Si tratta di un RTOS basato su un semplice scheduler mono-core full-preemptive, con architettura mono-stack ed interfaccia OSEK-compliant . Sempre su RH850 ho sviluppato un driver per il controllo di uno stepper-motor.
 
+# Unity Projects
+
+Per poter fornire alcuni progetti completi, ho allegato alcune simulazioni che ho sviluppato con l'engine Unity 2018. La versione base si può scaricare online ed i progetti allegati si possono caricare, eseguire nell'engine nonchè generare l'eseguibile Win32/Win64.
+
+Amazons.zip --> La variante (un po' semplificata) degli scacchi Amazons, le regole si trovano a questo link : https://en.wikipedia.org/wiki/Game_of_the_Amazons . Ho fatto questo progetto per esplorare gli algoritmi di AI, sia rule-based (agente mini-max) sia data-driven (machine learning/reinforcement learning). La versione attuale supporta l'agente mini-max, nella prossima versione aggiungerò un agente basato su supervised learning per poi passare al deep reinforncement learning.
+
+SniperBot.zip --> Simulazione AI di reinforcement learning. L'agente (il cecchino al centro del campo) con il passare del tempo impara ad uccidere tutti i nemici prima che lo raggiungano. Al momento l'algoritmo impiega 15 min circa per ottenere una performance decente. L'algoritmo è basato su Q-Learning e non fa uso di reti neurali .
+
+BlockChain.zip --> Soft-Simulation del funzionamento di una blockchain (generazione transizioni , mining, wallet elettronico) . Ho utilizzato le librerie RSA di Microsoft .NET per implementare gli algoritmi di crittografia a chiave asimmetrica.
+
+
 
