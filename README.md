@@ -13,7 +13,7 @@ In quel periodo e nell'anno successivo ho poi sviluppato e validato altri driver
 
 Su altre architetture micro ho lavorato  molto di meno come developer e maggiormente come team leader. Ho eseguito il porting del RTOS ERTK, sviluppato dal CRF su architettura PowerPc , verso l'architettura Renesas RH850. Si tratta di un RTOS basato su un semplice scheduler mono-core full-preemptive, con architettura mono-stack ed interfaccia OSEK-compliant . Sempre su RH850 ho sviluppato un driver per il controllo di uno stepper-motor.
 
-# Unity Projects
+# Unity Projects (C#)
 
 Per poter fornire alcuni progetti completi, ho allegato alcune simulazioni che ho sviluppato con l'engine Unity 2018. La versione base si può scaricare online ed i progetti allegati si possono caricare, eseguire nell'engine nonchè generare l'eseguibile Win32/Win64.
 
@@ -23,5 +23,11 @@ SniperBot.zip --> Simulazione AI di reinforcement learning. L'agente (il cecchin
 
 BlockChain.zip --> Soft-Simulation del funzionamento di una blockchain (generazione transizioni , mining, wallet elettronico) . Ho utilizzato le librerie RSA di Microsoft .NET per implementare gli algoritmi di crittografia a chiave asimmetrica.
 
+# Self-Driving Car Engineer Nanodegree Projects (Python / C++)
+
+Ho allegato alcuni progetti (non tutti) che ho sviluppato durante il corso online di 9 mesi con cui ho ottenuto la certificazione di Self-Driving Car Engineer. Sul mio profilo Linkedin trovate l'attestato . I progetti sono sviluppati in Python o C++ ed erano tutti soggetti a review da parte degli istruttori per poter proseguire verso la certificazione. I progetti in Python sono stati creati usando lo Jupyter Notebook, con cui potete aprire i file .ipynb per vedere il sorgente . In più, ogni progetto richiedeva la stesura di un Writeup (PDF) , che potete leggere, dove viene spiegato cosa è stato fatto ed il processo decisionale e di design su cui si basa l'implementazione del progetto.
+
+Advanced Lane Finding --> Progetto di computer vision, viene richiesto di implementare in Python un algoritmo di Lane Detection.
+Model Predictive Control --> Controllo automatico della vettura su pista sotto determinati vincoli . Disponibile in uno zip a parte il video che mostra in pratica la soluzione implementata.
 
 
