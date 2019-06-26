@@ -3,6 +3,9 @@
 ## dmpg.c (Linguaggio C)
 Estratto di un complex driver di controllo motore a combustione implementato su famiglia uC Freescale MPC5XXX .
 
+Compilatore: Windriver Diabdata
+Compilatore microcodice eTPU : Bytecraft eTPU_C
+
 Nel 2008 sono stato incaricato di sviluppare il driver di controllo iniettori multijet per la GEN8 delle ECU controllo motore Magneti Marelli. Le ECU GEN8 montavano come micro principale un Freescale MPC5XXX, architettura 32-bit PowerPC .
 I motori multijet prevedono la possibilità di fare iniettate multiple e venni quindi incaricato di specificare ed implementare il driver per la generazione di N comandi logici indipendenti su N pin uC che erano collegati ad altrettanti ingressi di un ASIC che si occupava della generazione del profilo di corrente necessario per comandare l'apertura e la chiusura degli iniettori . Il requisito era che i comandi logici fosser programmabili via SW per generare N treni di M impulsi di durata variabile. 
 
