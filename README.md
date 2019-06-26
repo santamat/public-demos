@@ -4,6 +4,7 @@
 Estratto di un complex driver di controllo motore a combustione implementato su famiglia uC Freescale MPC5XXX .
 
 Compilatore: Windriver Diabdata
+
 Compilatore microcodice eTPU : Bytecraft eTPU_C
 
 Nel 2008 sono stato incaricato di sviluppare il driver di controllo iniettori multijet per la GEN8 delle ECU controllo motore Magneti Marelli. Le ECU GEN8 montavano come micro principale un Freescale MPC5XXX, architettura 32-bit PowerPC .
