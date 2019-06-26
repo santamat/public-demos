@@ -1,4 +1,4 @@
-# Some demo projects and code snippets.
+# Some demo projects and code snippets by L. Santamato
 
 ## dmpg.c (Linguaggio C)
 Estratto di un complex driver di controllo motore a combustione implementato su famiglia uC Freescale MPC5XXX .
