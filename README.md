@@ -38,10 +38,13 @@ Ho allegato alcuni progetti (non tutti) che ho sviluppato durante il corso onlin
 Progetto di computer vision, viene richiesto di implementare in Python un algoritmo di Lane Detection.
 ### Model Predictive Control (Python)
 Controllo automatico della vettura su pista sotto determinati vincoli . Disponibile in uno zip a parte il video che mostra in pratica la soluzione implementata.
+### Behavioral Cloning (Python)
+In questo progetto si applicano i concetti delle Deep Neural Network, registrando un video di un'auto che percorre 2 giri su due diversi tracciati . Il simulatore è fornito durante il corso. Da questo video vengono estratti tutti i singoli frame con una lib Python e vengono dati in input ad una Convolutional Neural Network per l'apprendimento. Il modello così generato viene poi utilizzato per far guidare l'auto in modo autonomo. Lo scopo era riuscire ad addestrare il modello abbastanza bene da permettere all'auto di finire un full lap sui due tracciati senza incidenti. 
 ### Path Planner (Python)
 Controllo automatico della vettura che deve essere in grado di guidare su una autostrada a 3 corsie, gestendo i sorpassi, rispettando i limiti di velocità ed evitando collisioni con vetture più lente.
 ### Unscented Kalman Filter (C++)
 Implementazione in C++ di un filtro di Kalman per predire lo stato di un oggetto in movimento (per esempio un robot) in un ambiente circoscritto, sulla base di misure provenienti da sensori tipo lidar/radar (intrinsecamente rumorosi) .
+
 
 # Altri corsi / progetti in progress
 
